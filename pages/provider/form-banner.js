@@ -13,7 +13,7 @@ export default function Formbannerprovider() {
     return (
         <div className="relative bg-white overflow-hidden hero-bg">
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 form-tab">
-                {/*<TabProvider/>*/}
+               <TabProvider/>
             </div>
 
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
