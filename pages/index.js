@@ -1,7 +1,13 @@
+import HomeHero from "../component/header";
+import Formbanner from "../component/form-banner";
+
+
 export default function Home() {
   return (
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <div>
+      <HomeHero/>
+        <Formbanner/>
+
+    </div>
   )
 }
