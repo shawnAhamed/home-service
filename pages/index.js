@@ -1,5 +1,6 @@
 import HomeHero from "../component/header";
 import Formbanner from "../component/form-banner";
+import Second from "../component/second";
 
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
     <div>
       <HomeHero/>
         <Formbanner/>
-        
+        <Second/>
     </div>
   )
 }
